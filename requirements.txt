@@ -4,4 +4,3 @@ openpyxl
 reportlab
 numpy
 datetime
-os
