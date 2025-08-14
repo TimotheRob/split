@@ -338,7 +338,7 @@ else:
 
 st.sidebar.markdown("---")
 barcode_locations_selection = st.sidebar.multiselect(
-    "Generate barcodes for which locations?", LOCATION_ORDER, default=["Tower", "M", "Production"])
+    "Generate barcodes for which locations?", LOCATION_ORDER, default=["Tower"])
 
 # --- NEW: UI for Content Selection ---
 st.sidebar.markdown("---")
